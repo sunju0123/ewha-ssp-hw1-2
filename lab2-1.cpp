@@ -26,9 +26,6 @@ void setup() {
 }
 
 void loop() {
-	myAnalogWrite(REAR_LED_PIN,ledbright,1000);
-	if(ledbright!=0) ledbright-=25;
-
-//	myAnalogWrite(REAR_LED_PIN,ledbright,100);
-//	if(ledbright!=0) ledbright-=1;
+	myAnalogWrite(REAR_LED_PIN,ledbright,100);
+	if(ledbright!=0) ledbright-=1;
 }
